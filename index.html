@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bryan Riley — Staff Software Engineer</title>
+  <meta name="description" content="Staff Software Engineer specializing in AI/ML Systems & Product Engineering. 10+ years building scalable cloud-native applications." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Animated background -->
+  <canvas id="grid-canvas"></canvas>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>BR<span class="logo-bracket"> /&gt;</span>
+      </a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-content">
+      <p class="hero-greeting glitch-text" data-text="Hello, I'm">Hello, I'm</p>
+      <h1 class="hero-name neon-text">Bryan Riley</h1>
+      <div class="hero-title-wrapper">
+        <span class="hero-title-prefix">&gt;&gt;</span>
+        <h2 class="hero-title typing-text">Staff Software Engineer</h2>
+      </div>
+      <p class="hero-subtitle">AI/ML Systems &middot; Cloud-Native Architecture &middot; Product Engineering</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number" data-target="10">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Years Experience</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-target="6">0</span>
+          <span class="stat-label">Companies</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-target="7">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Languages</span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title"><span class="section-number">01.</span> About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>Staff Software Engineer with <span class="highlight">10+ years</span> of experience building scalable cloud-native applications, microservices architectures, and AI-powered systems.</p>
+          <p>Proven track record leading engineering teams, mentoring developers, and delivering mission-critical software across <span class="highlight">healthcare</span>, <span class="highlight">fintech</span>, and <span class="highlight">bioinformatics</span> domains.</p>
+          <p>Skilled in full-stack development with deep expertise in Java, Node.js, Kubernetes, AWS, and GCP. Passionate about building systems that solve real-world problems — from EMR platforms serving rural healthcare workers in Ghana to AI-powered document Q&A for businesses.</p>
+          <div class="about-details">
+            <div class="detail-item">
+              <span class="detail-label">Location</span>
+              <span class="detail-value">Remote / USA</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Education</span>
+              <span class="detail-value">B.S. Computer Science, Lehman College</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Languages</span>
+              <span class="detail-value">English, Japanese</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-terminal">
+          <div class="terminal-header">
+            <span class="terminal-dot red"></span>
+            <span class="terminal-dot yellow"></span>
+            <span class="terminal-dot green"></span>
+            <span class="terminal-title">bryan@dev ~ %</span>
+          </div>
+          <div class="terminal-body">
+            <p><span class="prompt">$</span> cat bryan.json</p>
+            <pre><code>{
+  "name": "Bryan Riley",
+  "role": "Staff Software Engineer",
+  "focus": [
+    "AI/ML Systems",
+    "Cloud-Native Architecture",
+    "Product Engineering"
+  ],
+  "domains": [
+    "Healthcare",
+    "Fintech",
+    "Bioinformatics"
+  ],
+  "passion": "Building systems that
+    solve real-world problems"
+}</code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title"><span class="section-number">02.</span> Technical Arsenal</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <div class="skill-category-header">
+            <div class="skill-icon">&#x2329;/&#x232A;</div>
+            <h3>Languages</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">TypeScript</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Kotlin</span>
+            <span class="skill-tag">Scala</span>
+            <span class="skill-tag">Dart</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <div class="skill-category-header">
+            <div class="skill-icon">{ }</div>
+            <h3>Frameworks</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Spring Boot</span>
+            <span class="skill-tag">Spring Cloud</span>
+            <span class="skill-tag">Node.js/Express</span>
+            <span class="skill-tag">React</span>
+            <span class="skill-tag">Svelte</span>
+            <span class="skill-tag">Flutter</span>
+            <span class="skill-tag">FastAPI</span>
+            <span class="skill-tag">Hibernate</span>
+            <span class="skill-tag">Gatling</span>
+            <span class="skill-tag">Pocketbase</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <div class="skill-category-header">
+            <div class="skill-icon">&#9729;</div>
+            <h3>Cloud & DevOps</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">AWS (EKS, ECR, Glue, Lambda, S3)</span>
+            <span class="skill-tag">GCP</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">Kubernetes</span>
+            <span class="skill-tag">Terraform</span>
+            <span class="skill-tag">GitHub Actions</span>
+            <span class="skill-tag">CircleCI</span>
+            <span class="skill-tag">Pivotal Cloud Foundry</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <div class="skill-category-header">
+            <div class="skill-icon">&#9881;</div>
+            <h3>Data & AI</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">RAG</span>
+            <span class="skill-tag">Prompt Engineering</span>
+            <span class="skill-tag">AI Evaluation</span>
+            <span class="skill-tag">pgvector</span>
+            <span class="skill-tag">Kafka</span>
+            <span class="skill-tag">MongoDB</span>
+            <span class="skill-tag">GraphQL</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <div class="skill-category-header">
+            <div class="skill-icon">&#8734;</div>
+            <h3>Architecture</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Microservices</span>
+            <span class="skill-tag">REST API Design</span>
+            <span class="skill-tag">Functional Programming</span>
+            <span class="skill-tag">Firebase</span>
+            <span class="skill-tag">Serverless</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="section">
+    <div class="container">
+      <h2 class="section-title"><span class="section-number">03.</span> Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Lead Software Engineer</h3>
+              <span class="timeline-company">XiMiles</span>
+              <span class="timeline-date">Dec 2025 — Feb 2026</span>
+            </div>
+            <ul class="timeline-details">
+              <li>Built an EMR system for the Ghanaian government, ensuring compliance with Ghana's health data privacy standards</li>
+              <li>Engineered offline/online synchronization for healthcare workers in remote villages</li>
+              <li>Served 3 villages in Ghana with the EMR platform</li>
+              <li>Backend: FastAPI + PostgreSQL + Firebase on GCP | Frontend: React</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>FastAPI</span><span>PostgreSQL</span><span>Firebase</span><span>GCP</span><span>React</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Staff Software Engineer</h3>
+              <span class="timeline-company">Farosoft (w/ XiMiles)</span>
+              <span class="timeline-date">Jun 2025 — Dec 2025</span>
+            </div>
+            <ul class="timeline-details">
+              <li>Co-developed Cleona, a multi-tenant RAG-based chat application for business Q&A</li>
+              <li>Architected model-agnostic LLM integration layer (OpenAI, Mistral)</li>
+              <li>Onboarded ~24 businesses onto the platform</li>
+              <li>Engineered multi-tenant data isolation with pgvector embeddings</li>
+              <li>Provisioned all cloud infrastructure using Terraform</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Python</span><span>FastAPI</span><span>AWS EKS</span><span>pgvector</span><span>Terraform</span><span>React</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Lead Software Engineer</h3>
+              <span class="timeline-company">Humanity Health</span>
+              <span class="timeline-date">Sept 2021 — Feb 2025</span>
+            </div>
+            <ul class="timeline-details">
+              <li>Led team development objectives and coordinated sprint planning across squads</li>
+              <li>Built a RAG-based candidate classification system using OpenAI + pgvector</li>
+              <li>Developed microservices (Node.js/Express) and mobile features (Flutter)</li>
+              <li>Architected and managed Kubernetes cluster (EKS)</li>
+              <li>Released apps to Google Play and Apple App Store</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Node.js</span><span>Flutter</span><span>Kubernetes</span><span>OpenAI</span><span>pgvector</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Senior Software Engineer</h3>
+              <span class="timeline-company">GeneDX / Sema4</span>
+              <span class="timeline-date">Jul 2019 — Aug 2021</span>
+            </div>
+            <ul class="timeline-details">
+              <li>Led application architecture for Mount Sinai legacy system decommission</li>
+              <li>Migrated legacy ETL pipeline to AWS Glue — ~50% processing time reduction</li>
+              <li>Mentored 7 junior/mid-level developers in Java 8+ best practices</li>
+              <li>Delivered mission-critical bioinformatics applications across 4 remote teams</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Java</span><span>AWS Glue</span><span>Serverless</span><span>CircleCI</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Senior Cloud Engineer</h3>
+              <span class="timeline-company">Inrhythm / Mastercard</span>
+              <span class="timeline-date">Feb 2018 — Jul 2019</span>
+            </div>
+            <ul class="timeline-details">
+              <li>Built cloud infrastructure and microservices for the <span class="highlight">Apple Card</span> project</li>
+              <li>KYC, address validation, and encryption verification services</li>
+              <li>Converted critical monolith to microservices (Spring Boot + Spring Cloud Config)</li>
+              <li>Created cloud-native performance testing with Scala/Gatling</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Spring Boot</span><span>PCF</span><span>Docker</span><span>Scala</span><span>Gatling</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Software Engineer</h3>
+              <span class="timeline-company">Accenture / Federal Reserve Bank</span>
+              <span class="timeline-date">Apr 2017 — Feb 2018</span>
+            </div>
+            <ul class="timeline-details">
+              <li>Obtained Keypoint Security Clearance</li>
+              <li>Implemented RESTful API design for critical financial applications</li>
+              <li>Led application architecture and code standardization practices</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Java</span><span>Spring Boot</span><span>Hibernate</span><span>Spring Data</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Software Engineer</h3>
+              <span class="timeline-company">DoITT — New York City</span>
+              <span class="timeline-date">May 2011 — Apr 2017</span>
+            </div>
+            <ul class="timeline-details">
+              <li>Back-end Java development for NYC agencies (DSNY, 911, 311)</li>
+              <li>Created public-facing APIs for the NYC developer community</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Java</span><span>REST APIs</span><span>NYC Government</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title"><span class="section-number">04.</span> Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-card-glow"></div>
+          <div class="project-header">
+            <div class="project-icon">&#9889;</div>
+            <div class="project-links">
+              <a href="https://erena.io" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Visit ERENA">&#8599;</a>
+            </div>
+          </div>
+          <h3 class="project-name">ERENA</h3>
+          <p class="project-description">Solo-built SaaS platform for managing online and in-person gaming tournaments. Full tournament lifecycle management with real-time brackets and matchmaking.</p>
+          <div class="project-tech">
+            <span>Svelte</span>
+            <span>Pocketbase</span>
+            <span>SaaS</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card-glow"></div>
+          <div class="project-header">
+            <div class="project-icon">&#129302;</div>
+            <div class="project-links">
+              <a href="https://cleona.io" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="Visit Cleona">&#8599;</a>
+            </div>
+          </div>
+          <h3 class="project-name">Cleona</h3>
+          <p class="project-description">Multi-tenant RAG-based chat platform enabling businesses to create AI-powered Q&A experiences from their documents. Onboarded ~24 businesses.</p>
+          <div class="project-tech">
+            <span>Python</span>
+            <span>FastAPI</span>
+            <span>pgvector</span>
+            <span>AWS EKS</span>
+            <span>React</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card-glow"></div>
+          <div class="project-header">
+            <div class="project-icon">&#127973;</div>
+          </div>
+          <h3 class="project-name">Ghana EMR</h3>
+          <p class="project-description">Electronic Medical Records system for the Ghanaian government with offline/online synchronization for healthcare workers in remote villages.</p>
+          <div class="project-tech">
+            <span>FastAPI</span>
+            <span>PostgreSQL</span>
+            <span>Firebase</span>
+            <span>GCP</span>
+            <span>React</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title"><span class="section-number">05.</span> Get In Touch</h2>
+      <div class="contact-content">
+        <p class="contact-text">I'm always open to new opportunities, collaborations, or just a conversation about building great software. Let's connect.</p>
+        <div class="contact-links">
+          <a href="mailto:brileydeveloper@gmail.com" class="contact-item">
+            <span class="contact-icon">&#9993;</span>
+            <span>brileydeveloper@gmail.com</span>
+          </a>
+          <a href="https://github.com/appboy" target="_blank" rel="noopener noreferrer" class="contact-item">
+            <span class="contact-icon">&#128187;</span>
+            <span>GitHub</span>
+          </a>
+        </div>
+        <a href="mailto:brileydeveloper@gmail.com" class="btn btn-primary btn-lg">Say Hello</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>Designed & Built by <span class="highlight">Bryan Riley</span></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
