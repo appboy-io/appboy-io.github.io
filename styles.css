@@ -814,6 +814,25 @@ body {
 }
 
 /* ============================================
+   OPEN SOURCE SECTION
+   ============================================ */
+.oss-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 500px;
+  margin: 0 auto;
+  gap: 24px;
+}
+
+.project-stats {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--text-dim);
+  margin-top: 16px;
+  letter-spacing: 0.5px;
+}
+
+/* ============================================
    CONTACT SECTION
    ============================================ */
 .contact-content {
